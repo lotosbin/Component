@@ -125,14 +125,18 @@ public class ModifyASMUtilTransform extends BaseTransform {
                                 if (mAsmUtilOutputPathStr != null && !"".equals(mAsmUtilOutputPathStr)) {
                                     File file = new File(mAsmUtilOutputPathStr);
                                     file.delete();
-                                    if(!file.getParentFile().mkdirs()){
-                                        throw new Exception();
+                                    File parentFile = file.getParentFile();
+                                    if(!parentFile.exists()) {
+                                        if (!parentFile.mkdirs()) {
+                                            throw new Exception();
+                                        }
                                     }
                                     FileOutputStream fileOutputStream = new FileOutputStream(file);
                                     fileOutputStream.write(bytes);
                                     fileOutputStream.close();
                                 }
                             } catch (Exception ignore) {
+                                ignore.printStackTrace();
                                 // ignore
                             }
                             ZipEntry asmUtiZipEntry = new ZipEntry(jarEntry.getName());
