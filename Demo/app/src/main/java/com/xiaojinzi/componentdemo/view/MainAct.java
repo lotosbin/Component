@@ -20,6 +20,8 @@ import com.xiaojinzi.base.router.AppApi;
 import com.xiaojinzi.component.anno.RouterAnno;
 import com.xiaojinzi.component.impl.Router;
 import com.xiaojinzi.component.impl.application.ModuleManager;
+import com.xiaojinzi.component.impl.service.ServiceManager;
+import com.xiaojinzi.component3.service.Component3Service;
 import com.xiaojinzi.componentdemo.R;
 
 /**
@@ -39,6 +41,7 @@ public class MainAct extends AppCompatActivity {
         getSupportActionBar().setTitle("组件化方案:(路由、服务、生命周期)");
         createNotificationChannel();
         startProxyRouter(getIntent().getExtras());
+        ServiceManager.requiredGet(Component3Service.class);
     }
 
     @Override
