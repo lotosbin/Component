@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion versions.android_compile_sdk
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion versions.android_target_sdk
         versionCode 1
         versionName "1.0"
