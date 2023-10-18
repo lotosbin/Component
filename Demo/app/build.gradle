@@ -61,7 +61,7 @@ dependencies {
     api project(':Demo:Module2')
     api project(':Demo:ModuleHelp')
     api project(':Demo:ModuleUser')
-
+    implementation 'com.xiaojinzi.component.demo:Module3:1.0.0'
     if (rootProject.ext.isDependMavenOnline) {
         kapt libs.component_compiler
     } else {

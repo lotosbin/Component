@@ -1,0 +1,37 @@
+pluginManagement {
+    repositories {
+        maven {
+            url '../..//RepoComponent'
+        }
+        maven { url 'https://jitpack.io' }
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'com.xiaojinzi.component.plugin') {
+                useModule("com.github.xiaojinzi123.Component:component-plugin:${requested.version}")
+            }
+        }
+    }
+}
+plugins{
+    id "com.android.settings" version "7.4.2"
+}
+android {
+    compileSdk 33
+    minSdk 16
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url '../..//RepoComponent'
+        }
+        maven { url 'https://jitpack.io' }
+        google()
+        mavenCentral()
+    }
+}
+include ":Module3"

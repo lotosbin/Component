@@ -30,3 +30,4 @@ include ':Demo',
         ':Demo:Module2',
         ':Demo:ModuleUser',
         ':Demo:ModuleBase'
+includeBuild("./Demo/Module3")

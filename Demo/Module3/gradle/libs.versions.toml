@@ -1,0 +1,13 @@
+[versions]
+component = "1.9.3"
+kotlin = "1.7.0"
+[libraries]
+component-impl-ktx = { module = "com.github.xiaojinzi123.Component:component-impl-ktx", version.ref = "component" }
+component-compiler = { module = "com.github.xiaojinzi123.Component:component-compiler", version.ref = "component" }
+[bundles]
+lib = ["component-impl-ktx"]
+lib-kapt = ["component-compiler"]
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+component-plugin = { id = "com.xiaojinzi.component.plugin", version.ref = "component" }
