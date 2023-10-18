@@ -66,5 +66,10 @@ afterEvaluate {
                 version = version
             }
         }
+        repositories {
+            maven {
+                url = "$rootDir/RepoComponent"
+            }
+        }
     }
 }
