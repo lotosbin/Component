@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.xiaojinzi123.Component",
+    "module": "component-plugin",
+    "version": "1.9.4-dev.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "component-plugin-1.9.4-dev.1.jar",
+          "url": "component-plugin-1.9.4-dev.1.jar",
+          "size": 25759,
+          "sha512": "fad95071ec79f92f3086fe6d7436df9a92674f7c5c6038c3b2bbdce2d24b5ce7f01a4ecec18c8d3c607f568b49407f2c04f941f8dbb50bc70c5f6305041b0991",
+          "sha256": "76c650b38cc8e89b610c066d7f4103d2080477a28d05b4810195e945b27ddb43",
+          "sha1": "323237776ae3a1ad75012e111b10d91377c684c0",
+          "md5": "d1c1a992bc05a8cd7a9803c6bbbed67a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-all",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-plugin-1.9.4-dev.1.jar",
+          "url": "component-plugin-1.9.4-dev.1.jar",
+          "size": 25759,
+          "sha512": "fad95071ec79f92f3086fe6d7436df9a92674f7c5c6038c3b2bbdce2d24b5ce7f01a4ecec18c8d3c607f568b49407f2c04f941f8dbb50bc70c5f6305041b0991",
+          "sha256": "76c650b38cc8e89b610c066d7f4103d2080477a28d05b4810195e945b27ddb43",
+          "sha1": "323237776ae3a1ad75012e111b10d91377c684c0",
+          "md5": "d1c1a992bc05a8cd7a9803c6bbbed67a"
+        }
+      ]
+    }
+  ]
+}

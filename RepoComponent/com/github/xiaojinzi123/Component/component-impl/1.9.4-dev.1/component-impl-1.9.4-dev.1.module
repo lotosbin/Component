@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.xiaojinzi123.Component",
+    "module": "component-impl",
+    "version": "1.9.4-dev.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.xiaojinzi123.Component",
+          "module": "component-annotation",
+          "version": {
+            "requires": "1.9.4-dev.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-impl-1.9.4-dev.1.aar",
+          "url": "component-impl-1.9.4-dev.1.aar",
+          "size": 187562,
+          "sha512": "81be5e0d801a25b5b5ffd2f162c529eefddbc53fab14ab594d56d5b014c82927644f89dbf6012954dc70278ff8aa803ab84628ede6f3ba5e3ed8572057ee7840",
+          "sha256": "a8fc2a0d236b7f6f6a2718443023ecfcdcc0727a9a86beaa05b3567602eb046c",
+          "sha1": "4bf5e0b41119ae59743c371b9a305db8fe8e6203",
+          "md5": "35d433828b83bc818156ab7886e1c506"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.xiaojinzi123.Component",
+          "module": "component-annotation",
+          "version": {
+            "requires": "1.9.4-dev.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-impl-1.9.4-dev.1.aar",
+          "url": "component-impl-1.9.4-dev.1.aar",
+          "size": 187562,
+          "sha512": "81be5e0d801a25b5b5ffd2f162c529eefddbc53fab14ab594d56d5b014c82927644f89dbf6012954dc70278ff8aa803ab84628ede6f3ba5e3ed8572057ee7840",
+          "sha256": "a8fc2a0d236b7f6f6a2718443023ecfcdcc0727a9a86beaa05b3567602eb046c",
+          "sha1": "4bf5e0b41119ae59743c371b9a305db8fe8e6203",
+          "md5": "35d433828b83bc818156ab7886e1c506"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "component-impl-1.9.4-dev.1-sources.jar",
+          "url": "component-impl-1.9.4-dev.1-sources.jar",
+          "size": 117792,
+          "sha512": "9cc6df8af45f4b4633179f77eb57736c1b0af4ad8a1ab8be745abaefee6ed009d5c7578d700de9fe726b19680bb5672e1e2be669ca5bbfb338a1642f3293314d",
+          "sha256": "31c84bb957393c1fc5be61dddfe765fbb3bbb7429ae7fa0a97d6fc71e83365d3",
+          "sha1": "2981c3b4eecc9c3d1fa68843e455b9ba3dd688b9",
+          "md5": "6948eb7aeae5ca16ac6e0551cd26ad21"
+        }
+      ]
+    }
+  ]
+}

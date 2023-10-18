@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.xiaojinzi123.Component",
+    "module": "component-impl-rx",
+    "version": "1.9.4-dev.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.xiaojinzi123.Component",
+          "module": "component-impl",
+          "version": {
+            "requires": "1.9.4-dev.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-impl-rx-1.9.4-dev.1.aar",
+          "url": "component-impl-rx-1.9.4-dev.1.aar",
+          "size": 45899,
+          "sha512": "ea49994fe9d289ed41d738244eee1dd0051654fe359cd49b5fb1f4719a067aecdb0d3ad14b47268e10ce4421c0e96a1caf15796aaa0cf363691912cae6604323",
+          "sha256": "f2143c1b118f6cc184803e2162baa0e1a5363f234c196edb83dcc1570d3b642b",
+          "sha1": "0ef19c4a77b53d5751bc21659c7651d760506bae",
+          "md5": "908eb774c9e238af07294f59616fa1b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.xiaojinzi123.Component",
+          "module": "component-impl",
+          "version": {
+            "requires": "1.9.4-dev.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-impl-rx-1.9.4-dev.1.aar",
+          "url": "component-impl-rx-1.9.4-dev.1.aar",
+          "size": 45899,
+          "sha512": "ea49994fe9d289ed41d738244eee1dd0051654fe359cd49b5fb1f4719a067aecdb0d3ad14b47268e10ce4421c0e96a1caf15796aaa0cf363691912cae6604323",
+          "sha256": "f2143c1b118f6cc184803e2162baa0e1a5363f234c196edb83dcc1570d3b642b",
+          "sha1": "0ef19c4a77b53d5751bc21659c7651d760506bae",
+          "md5": "908eb774c9e238af07294f59616fa1b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "component-impl-rx-1.9.4-dev.1-sources.jar",
+          "url": "component-impl-rx-1.9.4-dev.1-sources.jar",
+          "size": 13805,
+          "sha512": "f804272080778fa78ff9a7a414b578d7f62077fdb051ac286e803b1a9a1ff79378a13ac1e5650a1697de8e0a25e040bc07be82942038ce8abaaa5b733bef8c98",
+          "sha256": "47f08540899739badac11042090f44a816cd169435b9950642df09d067856f52",
+          "sha1": "32e83ef4bcccf633c574499e9c96c2247a960224",
+          "md5": "6f1d74e1e9dffb1e448100fd8b7564db"
+        }
+      ]
+    }
+  ]
+}

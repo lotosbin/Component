@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.xiaojinzi123.Component",
+    "module": "component-annotation",
+    "version": "1.9.4-dev.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-annotation-1.9.4-dev.1.jar",
+          "url": "component-annotation-1.9.4-dev.1.jar",
+          "size": 23231,
+          "sha512": "a453c7967db61d724bdbddc430f3e65254c0476870aaa4bfc09da6b53fef9a3b862e420f95c6c5c79d9b63aa744155590b90f1d1262bb2b36eccc5ec68d7ca78",
+          "sha256": "eb1d9d06874aa97f76de509be76a52973edad6ac479a8f13e9440aef2cde78be",
+          "sha1": "3dc6e35bc6bc30f239d140e1651aa467c5590631",
+          "md5": "4a5c7ec060b51f51dbd4c81b63981751"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-annotation-1.9.4-dev.1.jar",
+          "url": "component-annotation-1.9.4-dev.1.jar",
+          "size": 23231,
+          "sha512": "a453c7967db61d724bdbddc430f3e65254c0476870aaa4bfc09da6b53fef9a3b862e420f95c6c5c79d9b63aa744155590b90f1d1262bb2b36eccc5ec68d7ca78",
+          "sha256": "eb1d9d06874aa97f76de509be76a52973edad6ac479a8f13e9440aef2cde78be",
+          "sha1": "3dc6e35bc6bc30f239d140e1651aa467c5590631",
+          "md5": "4a5c7ec060b51f51dbd4c81b63981751"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "component-annotation-1.9.4-dev.1-sources.jar",
+          "url": "component-annotation-1.9.4-dev.1-sources.jar",
+          "size": 24691,
+          "sha512": "03db4287cfbdace6b242652bf296ba35b29d566037a51c8d82a5b4f1e2e3f5593e44f1e257ec8de55d98b5bbe3517fcf2804e9676373cd1d488e7b184565b1c3",
+          "sha256": "6446f2579adee93d7108d542e6c57c26f4b55ddd0b60b8776c5d390db440f319",
+          "sha1": "f3d1fde37c7c35c8a93e81bc9379f267c7e77f52",
+          "md5": "ccba5f6c2d97ae3065fa6731753758b3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "component-annotation-1.9.4-dev.1-javadoc.jar",
+          "url": "component-annotation-1.9.4-dev.1-javadoc.jar",
+          "size": 189844,
+          "sha512": "f4f10067317614993129cff9b9ef451ba7265cdd781bbcf5850381500b869a95c43334c518457c2d43c49ba0bf3ccf6abb6943e30aa6884792ab0050aac73871",
+          "sha256": "96d28b465a34d08935c4073fe206b2a638638781c76f272ae7b99218e32aa8a6",
+          "sha1": "95633b7b67c9e58dc3e235b769e231cfef9c1bef",
+          "md5": "e0a804b43da7d2234902f37158c45863"
+        }
+      ]
+    }
+  ]
+}

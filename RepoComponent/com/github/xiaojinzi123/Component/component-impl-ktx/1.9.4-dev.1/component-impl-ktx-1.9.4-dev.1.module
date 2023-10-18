@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.xiaojinzi123.Component",
+    "module": "component-impl-ktx",
+    "version": "1.9.4-dev.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.xiaojinzi123.Component",
+          "module": "component-impl",
+          "version": {
+            "requires": "1.9.4-dev.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-impl-ktx-1.9.4-dev.1.aar",
+          "url": "component-impl-ktx-1.9.4-dev.1.aar",
+          "size": 37850,
+          "sha512": "73b264cf782df290e02d766ef5c70d6258a887fc39fab02094a39bf6f2a147cd4b006ae42a75e00e1af4f8f28d6390d57756e1d02122e69e1b28d819537e7b50",
+          "sha256": "f0a976a7fd575051d789e9255dc85adcac8bba3997db6ec2eb32550e6adf57ca",
+          "sha1": "61e63e7c06bbdb0a5842a955842e4ab3390d66f9",
+          "md5": "312af7c786c7d5f538d699b567d11a9b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.xiaojinzi123.Component",
+          "module": "component-impl",
+          "version": {
+            "requires": "1.9.4-dev.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-impl-ktx-1.9.4-dev.1.aar",
+          "url": "component-impl-ktx-1.9.4-dev.1.aar",
+          "size": 37850,
+          "sha512": "73b264cf782df290e02d766ef5c70d6258a887fc39fab02094a39bf6f2a147cd4b006ae42a75e00e1af4f8f28d6390d57756e1d02122e69e1b28d819537e7b50",
+          "sha256": "f0a976a7fd575051d789e9255dc85adcac8bba3997db6ec2eb32550e6adf57ca",
+          "sha1": "61e63e7c06bbdb0a5842a955842e4ab3390d66f9",
+          "md5": "312af7c786c7d5f538d699b567d11a9b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "component-impl-ktx-1.9.4-dev.1-sources.jar",
+          "url": "component-impl-ktx-1.9.4-dev.1-sources.jar",
+          "size": 2256,
+          "sha512": "7b3b93c7ede4ed2be7b7ce9e04322bf27efadfc53cf40ff2dba568f013bb62a2b85a81f9598024b9bfec7a675d16bc04020d3ff07a8b582a6f9c3e8949833e6f",
+          "sha256": "bafa1d4bb29aa8fcb606264f5914f6a59efc24680d982ec1035d382938ac921b",
+          "sha1": "3b0633f2e4628a63a1c02b77f64f99f9e998719b",
+          "md5": "82015dbaf4b3fffd8045db77cda74b23"
+        }
+      ]
+    }
+  ]
+}
