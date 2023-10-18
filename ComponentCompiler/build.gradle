@@ -9,7 +9,6 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
 }
 
-group = 'com.github.xiaojinzi123'
 archivesBaseName = "component-compiler"
 
 // 配置模块的 freeCompilerArgs 参数
