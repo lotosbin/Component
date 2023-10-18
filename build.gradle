@@ -42,7 +42,7 @@ plugins {
 }
 
 subprojects { project ->
-    if(project.name.startWith("Component")) {
+    if(project.name.startsWith("Component")) {
         if (rootProject.ext.isDependMavenOnline) {
             group = "com.github.xiaojinzi123.Component"
         } else {
